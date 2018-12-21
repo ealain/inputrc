@@ -18,6 +18,8 @@ set skip-completed-text on
 # Match the current input in history when pressing UP or DOWN
 "\e[A": history-search-backward
 "\e[B": history-search-forward
+"\C-P": history-search-backward
+"\C-N": history-search-forward
 
 ## Do not display ^C
 set echo-control-characters off
